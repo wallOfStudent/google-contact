@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input,
+in {
+  border: initial;
+  background-color: initial;
+  outline: none;
+  width: 100%;
+}

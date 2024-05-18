@@ -1,0 +1,45 @@
+.display-none {
+  display: none;
+}
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.position {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+/* Flex  */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-s-between {
+  justify-content: space-between;
+}
+
+.justify-s-around {
+  justify-content: space-around;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}

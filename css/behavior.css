@@ -1,0 +1,28 @@
+.pointer {
+  cursor: pointer;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.active-btn {
+  background-color: var(--primary-light-color);
+  font-weight: 700;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: var(--transition);
+  color: var(--text-color);
+}
+
+.icon:hover {
+  background-color: var(--hover-color-icon);
+}

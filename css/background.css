@@ -1,0 +1,24 @@
+.bg-page-full {
+  background-color: var(--background-color);
+}
+
+.bg-black-opacity-5 {
+  background-color: rgba(0, 0, 0, 0.451);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-radius-20 {
+  border-radius: var(--border-radius-20);
+}
+
+.bg-radius-5 {
+  border-radius: var(--border-radius-5);
+}
+
+.main-section {
+  min-height: 85vh;
+  padding: 2rem;
+}

@@ -1,0 +1,48 @@
+.title {
+  color: var(--text-color);
+  font-style: normal;
+}
+
+.text-black {
+  color: #000;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.title span {
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: wavy;
+}
+
+.title-level-1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.title-level-2 {
+  font-size: 1rem;
+}
+
+.title-level-3 {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .sd-title-level-1 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
